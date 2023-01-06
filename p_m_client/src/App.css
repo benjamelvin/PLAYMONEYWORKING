@@ -1,0 +1,181 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+.App{
+  width: 100vw;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.wallet{
+  margin-bottom: 10px;
+  /* background-color: ; */
+  /* background-image: url(./assets/imgbin_wallet-stock-photography-drawing-illustration-png.png); */
+  background-size:contain;
+  color:white;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  margin-left: 20px;
+  
+  
+}
+
+.read-the-docs {
+  color: #888;
+}
+.background-image {
+  background-image: url(./assets/1393719.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro{
+color:rgb(104, 236, 74);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+font-style: italic;
+-webkit-text-stroke: 2px white;
+}
+.nav{
+
+  color:rgb(170, 11, 11);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 400;
+font-variant-caps: titling-caps;
+font-size: 20px;
+}
+.table-headers{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-variant-caps: titling-caps;
+  font-size: 20px;
+} 
+.bull {
+  background-image: url(./assets/bull.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.funds{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color:black;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant-caps: titling-caps;
+  
+  
+ 
+}
+.ticker{
+  color:rgb(104, 236, 74);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-variant-caps: titling-caps;
+  font-size: 35px;
+  font-style: italic;
+  -webkit-text-stroke: 1px white;
+
+}
+.homepage{
+  align-items: right;
+}
+.yours{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-variant-caps: titling-caps;
+  font-size: 20px;
+}
+.button{
+/* margin-top: 100px; */
+font-size: 25px;
+
+}
+.searchbar{
+  margin-top: 100px;
+}
+.picc{
+  width: 200px;
+  height: 200px
+}
+.pic{
+  margin-left: 20px;
+}
+.stocks{
+  color:rgb(104, 236, 74);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+font-style: italic;
+}
+.serch{
+  color:rgb(104, 236, 74);
+  color:crimson;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 900;
+font-style: italic;
+height: 8vh;
+}
+.serchh{
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+font-style: italic;
+width:300px;
+height:25px;
+border-radius:25px;
+border: none;
+}
+.form{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-variant-caps: titling-caps;
+  font-size: 15px;
+  font-style: italic;
+  -webkit-text-stroke: 1px rgb(104, 236, 74);
+}
+.stuff{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-variant-caps: titling-caps;
+  font-size: 15px;
+  font-style: italic;
+  -webkit-text-stroke: 1px rgb(104, 236, 74);
+
+}
